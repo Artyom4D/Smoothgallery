@@ -1,0 +1,133 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<title>Smooth Gallery - Demo by Kevin Thornbloom</title>  
+<link rel="stylesheet" type="text/css" href="css/smoothgallery.css">
+<style type="text/css">
+body {
+    background:#fff;
+    font-family:sans-serif;
+}
+.demo-wrap {
+    max-width:960px;
+    margin:0 auto;
+    padding:15px;
+}
+.link {
+    color:#0f5e58;
+    text-decoration: none;
+    border:2px solid #0f5e58;
+    padding:10px;
+    border-radius:6px;
+}
+.link:hover {
+    background:#0f5e58;
+    color:#fff;
+}
+</style>
+</head>
+<body>
+<div class="demo-wrap">
+<h1>Smooth Gallery Demo</h1>
+<i>A 3KB script to generate a slick paginated gallery & lightbox viewer. Oh, and it's fully responsive.</i>
+
+<br><br>
+  <div class="sg">
+    <div class="sg-item">
+        <a href="images/1.jpg" title="Here's a Longer Caption"><img src="images/1_thumb.jpg"></a>
+        <br>PHOTO TITLE
+    </div>
+    <div class="sg-item">
+        <a href="images/2.jpg"><img src="images/2_thumb.jpg"></a>
+        <br>PHOTO TITLE
+    </div>
+    <div class="sg-item">
+        <a href="images/3.jpg"><img src="images/3_thumb.jpg"></a>
+        <br>PHOTO TITLE
+    </div>
+    <div class="sg-item">
+        <a href="images/4.jpg"><img src="images/4_thumb.jpg"></a>
+        <br>PHOTO TITLE
+    </div>
+    <div class="sg-item">
+        <a href="images/5.jpg" title="Another Caption"><img src="images/5_thumb.jpg"></a>
+        <br>PHOTO TITLE
+    </div>
+    <div class="sg-item">
+        <a href="images/6.jpg"><img src="images/6_thumb.jpg"></a>
+        <br>PHOTO TITLE
+    </div>
+    <div class="sg-item">
+        <a href="images/1.jpg"><img src="images/1_thumb.jpg"></a>
+        <br>PHOTO TITLE
+    </div>
+    <div class="sg-item">
+        <a href="images/2.jpg"><img src="images/2_thumb.jpg"></a>
+        <br>PHOTO TITLE
+    </div>
+    <div class="sg-item">
+        <a href="images/3.jpg"><img src="images/3_thumb.jpg"></a>
+        <br>PHOTO TITLE
+    </div>
+    <div class="sg-item">
+        <a href="images/4.jpg"><img src="images/4_thumb.jpg"></a>
+        <br>PHOTO TITLE
+    </div>
+    <div class="sg-item">
+        <a href="images/5.jpg"><img src="images/5_thumb.jpg"></a>
+        <br>PHOTO TITLE
+    </div>
+    <div class="sg-item">
+        <a href="images/6.jpg"><img src="images/6_thumb.jpg"></a>
+        <br>PHOTO TITLE
+    </div>
+    <div class="sg-item">
+        <a href="images/1.jpg"><img src="images/1_thumb.jpg"></a>
+        <br>PHOTO TITLE
+    </div>
+    <div class="sg-item">
+        <a href="images/2.jpg"><img src="images/2_thumb.jpg"></a>
+        <br>PHOTO TITLE
+    </div>
+    <div class="sg-item">
+        <a href="images/3.jpg"><img src="images/3_thumb.jpg"></a>
+        <br>PHOTO TITLE
+    </div>
+    <div class="sg-item">
+        <a href="images/4.jpg"><img src="images/4_thumb.jpg"></a>
+        <br>PHOTO TITLE
+    </div>
+    <div class="sg-item">
+        <a href="images/5.jpg"><img src="images/5_thumb.jpg"></a>
+        <br>PHOTO TITLE
+    </div>
+    <div class="sg-item">
+        <a href="images/6.jpg"><img src="images/6_thumb.jpg"></a>
+        <br>PHOTO TITLE
+    </div>
+</div>
+<br>
+<div class="sg-paginate">
+    <a href="#" class="sg-up">▲</a><a href="#" class="sg-down">▼</a>
+</div>
+<br><br>
+<a href="http://kthornbloom.com/smoothgallery.php" class="link">Details & Download</a>
+</body>
+<script type='text/javascript' src='js/jquery.js'></script>
+<script type='text/javascript' src="js/easing.js"></script>
+<script type='text/javascript' src="js/smoothgallery.min.js"></script>
+<script type="text/javascript">
+$(window).load( function() {
+    // use default options
+    $(document).smoothGallery({
+        animSpeed:300, 
+        delaySpeed:50,
+        visibleRows: 2,
+        animEasing: 'easeOutQuart'
+    });
+});
+</script>
+</html>
+
