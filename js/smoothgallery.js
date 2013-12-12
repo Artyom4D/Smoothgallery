@@ -9,7 +9,6 @@
  
 (function ($) {
     $.fn.extend({
-        // change 'pluginname' to your plugin name (duh)
         smoothGallery: function (options) {
 
             // options for the plugin
